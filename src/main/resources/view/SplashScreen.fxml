@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep8.sas.controller.SpalshScreenController">
+   <children>
+      <Label layoutX="181.0" layoutY="258.0" text="ATTENDANCE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="prgsBar" layoutX="200.0" layoutY="200.0" prefWidth="200.0" progress="0.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="224.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/index.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="statusText" layoutX="252.0" layoutY="229.0" prefHeight="16.0" prefWidth="98.0" />
+   </children>
+</AnchorPane>

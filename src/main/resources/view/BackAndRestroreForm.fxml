@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="513.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep8.sas.controller.BackAndRestoreFormController">
+   <children>
+      <Label layoutX="116.0" layoutY="54.0" text="BackUp and Restore">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBackUp" layoutX="61.0" layoutY="104.0" mnemonicParsing="false" onAction="#btnBackUpOnAction" text="BackUp" />
+      <Button fx:id="btnRestore" layoutX="308.0" layoutY="117.0" mnemonicParsing="false" onAction="#btnRestoreOnAction" text="Restore" />
+   </children>
+</AnchorPane>
